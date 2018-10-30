@@ -9,7 +9,7 @@ namespace WpfApp3
 {
     public partial class Window1 : Window
     {
-        OleDbConnection Connect = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = C:\Users\User\Desktop\Сдача\Sladskaya Accounting\\T.accdb"); // Строка подключения к базе данных Access
+        OleDbConnection Connect = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = C:\\T.accdb"); // Строка подключения к базе данных Access
         public Window1()
         {
             InitializeComponent();
